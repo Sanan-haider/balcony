@@ -22,7 +22,16 @@ const GlobalStyle = createGlobalStyle`
     }
     
     }
+    @media only screen and (max-width:852px) and (min-width:768px){
+      .outsideheading {
+        text-align: center;
+    }
+    .breadcrumbs {
+      text-align: center !important;
+  }
+    }
     @media only screen and (max-width:1200px) and (min-width:768px){
+    
       
      .chat-module {
         display: none;
@@ -69,6 +78,12 @@ const GlobalStyle = createGlobalStyle`
       
     }
     @media only screen and (max-width:767px) and (min-width:480px){
+      .breadcrumbs {
+        text-align: center !important;
+    }
+      .outsideheading {
+        text-align: center;
+    }
        .chat-module {
         display: none;
     }
@@ -107,6 +122,17 @@ const GlobalStyle = createGlobalStyle`
       
     }
     @media only screen and (max-width:479px) and (min-width:320px){
+      .breadcrumbs {
+        text-align: center !important;
+    }
+      .box {
+        width: 298px !important;
+        padding: 261px 238px 10px 10px !important;
+      
+    }
+      .outsideheading {
+        text-align: center;
+    }
        .chat-module {
         display: none;
     }
